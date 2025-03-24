@@ -154,7 +154,7 @@ h1 {
     background-size: cover;
 }
 .icon_text{
-    background-color: #fff;
+    /* background-color: #fff; */
     vertical-align: middle;
     margin: 24px;
 }
