@@ -2,61 +2,61 @@ body {
     margin: 0;
 }
 
-.heros {
+.herosection {
     width: 100%;
     height: 800px;
     background-image: url(./images/drew-coffman-1872.jpg);
     background-position: center;
     background-size: cover;
+}
 
+.par {
+    width: 100%;
+    background-color: #cc6464;
+    /* position: fixed; */
+    vertical-align: middle;
 }
 
 .navpar {
     width: 70%;
-    /* background-color: brown; */
     margin: auto;
-    overflow: auto;
-
-
 }
+
 
 .logo {
     width: 15%;
     float: left;
-  
-    /* background-color: blueviolet; */
-}
-
-.logo
- {
-    padding: 24px;
-    
+    padding: 16px;
 }
 
 .list {
-    /* background-color: blueviolet; */
     float: right;
-
-
+    background-color: black;
+vertical-align: bottom;
 }
 
 .linav {
+    background-color: aqua;
     float: left;
-    font-size: 16px;
+    font-size: 24px;
     text-transform: capitalize;
-    margin: 0 4px;
-    padding: 32px;
+    padding: 16px 32px;
+    margin-left: 5px;
     border-top: 4px solid #8e7754;
-   
+
 }
 
-.about,.ouroffer,.gallery,.blog,.contact {
+.about,
+.ouroffer,
+.gallery,
+.blog,
+.contact {
     border-top: hidden;
 }
 
 .ulnav {
     list-style: none;
-}
+ }
 
 .linknav {
     text-decoration-line: none;
@@ -65,106 +65,94 @@ body {
 
 }
 
-.hinfo {
+.clr {
+    clear: both;
+}
+
+.herosection_content {
     /* background-color: beige; */
     width: 40%;
     text-align: center;
     margin: 200px auto;
 }
 
-.hpra {
+.we,.welcome {
     font-size: 24px;
     text-transform: lowercase;
     line-height: 150%;
     letter-spacing: 2px;
-
+    color: #fff;
 }
 
-.hpra span {
+.welcome,.we  span {
     text-transform: capitalize;
 }
 
-h1,
-.hpra {
-    color: #fff;
-
-
-}
-
-h1 {
+.herosection h1 {
     font-size: 60px;
     text-transform: capitalize;
+    color: #fff;
 }
 
-.hbuttons {
+.herosection_buttons {
     margin: 40px;
 }
 
-.hb1,
-.hb2 {
+.herosection_buttons  button {
     font-size: 16px;
-    line-height: 40px;
+    line-height: 32px;
     text-transform: capitalize;
     border-radius: 16px;
-    border: none;
-    padding: 16px 52px;
-    margin: 24px;
+    padding: 16px 32px;
+    margin: 16px;
     color: #fff;
     letter-spacing: 2px;
 }
 
-.hb1 {
+.hsection_button1 {
     background-color: #8e7754;
+    border: #8e7754 2px solid;
+}
+.hsection_button1:hover{
+    background-color: #fff;
+    border: #fff 2px solid;
+    color: #1b1b1b;
 }
 
-.hb2 {
-    border: #fff 4px solid;
+.hsection_button2 {
+    border: #fff 2px solid;
     background-color: inherit;
+}
+.hsection_button2:hover{
+    background-color: #fff;
+    color: #1b1b1b;
 }
 
 .section1{
+    width: 100%;
+    min-height: 700px;
     background-color: #8e7754;
-    height: 800px;
 }
-.section1_info{
-    background-color: #fff;
-    width: 80%;
-    height: 90%;
+.section1_content{
+    width: 70%;
+    /* min-height: 100%; */
+    background-color: antiquewhite;
     margin: auto;
-}
-.left_s1, .right_s1{
-    width: 40%;
-    display: inline-block;
     vertical-align: middle;
-    margin: 40px;
 }
-.left_s1{
-    
-    /* height: 100%; */
+.s1_left,.s1_right{
+    width: 40%;
+    /* height: 100%;    */
+    display: inline-block;
+    margin: 40px;
 
 }
-.right_s1{
-    background-color: rgb(180, 180, 207);
-    margin-left: auto;
-    padding: 24px;
-}
-.image_s1{
+.s1_left{
     height: 100%;
     background-image: url(./images/alexandru-stavrica.jpg);
     background-size: cover;
 }
-.icon_text{
-    /* background-color: #fff; */
-    vertical-align: middle;
-    margin: 24px;
-}
-.s1_icon{
-    width: 80px;
-    border: #8e7754 solid 4px;
-    border-radius: 80px;
-    display: inline-block;
-}
-.s1_text{
-    display: inline-block;
-    
+.s1_right{
+    background-color: aquamarine;
+   
 }
