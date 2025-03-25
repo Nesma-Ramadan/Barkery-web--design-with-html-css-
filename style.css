@@ -12,8 +12,6 @@ body {
 
 .par {
     width: 100%;
-    background-color: #cc6464;
-    /* position: fixed; */
     vertical-align: middle;
 }
 
@@ -21,7 +19,6 @@ body {
     width: 70%;
     margin: auto;
 }
-
 
 .logo {
     width: 15%;
@@ -31,38 +28,27 @@ body {
 
 .list {
     float: right;
-    background-color: black;
-vertical-align: bottom;
 }
 
 .linav {
-    background-color: aqua;
     float: left;
     font-size: 24px;
     text-transform: capitalize;
     padding: 16px 32px;
     margin-left: 5px;
-    border-top: 4px solid #8e7754;
-
-}
-
-.about,
-.ouroffer,
-.gallery,
-.blog,
-.contact {
-    border-top: hidden;
 }
 
 .ulnav {
     list-style: none;
- }
+}
 
 .linknav {
     text-decoration-line: none;
     color: #fff;
+}
 
-
+.linknav:hover {
+    color: #8e7754;
 }
 
 .clr {
@@ -70,13 +56,13 @@ vertical-align: bottom;
 }
 
 .herosection_content {
-    /* background-color: beige; */
     width: 40%;
     text-align: center;
     margin: 200px auto;
 }
 
-.we,.welcome {
+.we,
+.welcome {
     font-size: 24px;
     text-transform: lowercase;
     line-height: 150%;
@@ -84,7 +70,8 @@ vertical-align: bottom;
     color: #fff;
 }
 
-.welcome,.we  span {
+.welcome,
+.we span {
     text-transform: capitalize;
 }
 
@@ -98,7 +85,7 @@ vertical-align: bottom;
     margin: 40px;
 }
 
-.herosection_buttons  button {
+.herosection_buttons button {
     font-size: 16px;
     line-height: 32px;
     text-transform: capitalize;
@@ -113,7 +100,8 @@ vertical-align: bottom;
     background-color: #8e7754;
     border: #8e7754 2px solid;
 }
-.hsection_button1:hover{
+
+.hsection_button1:hover {
     background-color: #fff;
     border: #fff 2px solid;
     color: #1b1b1b;
@@ -123,36 +111,306 @@ vertical-align: bottom;
     border: #fff 2px solid;
     background-color: inherit;
 }
-.hsection_button2:hover{
+
+.hsection_button2:hover {
     background-color: #fff;
     color: #1b1b1b;
 }
 
-.section1{
+/*///////////////////////////////////////////////////////////////////   section_1 (Who We are?)  //////////////////////////////////////////////////////  */
+
+.section1 {
     width: 100%;
-    min-height: 700px;
-    background-color: #8e7754;
+    min-height: 500px;
+    background-color: #ffffff;
 }
-.section1_content{
+
+.section1_content {
     width: 70%;
-    /* min-height: 100%; */
-    background-color: antiquewhite;
     margin: auto;
-    vertical-align: middle;
 }
-.s1_left,.s1_right{
+
+.s1_left,
+.s1_right {
     width: 40%;
-    /* height: 100%;    */
     display: inline-block;
-    margin: 40px;
+    vertical-align: middle;
+    margin: 50px;
 
 }
-.s1_left{
-    height: 100%;
-    background-image: url(./images/alexandru-stavrica.jpg);
-    background-size: cover;
+
+.who h2 {
+    color: #444444;
+
 }
-.s1_right{
-    background-color: aquamarine;
-   
+
+.who p {
+    color: #727272;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.s1Right_icon_content {
+    margin: 24px 0px;
+}
+
+.s1_icon {
+    width: 40px;
+    height: 40px;
+    border: #8e7754 2px solid;
+    border-radius: 45px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.s1_content {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    color: #727272;
+}
+
+/*///////////////////////////////////////////////////////////////////   section_2 (Our Locatio)   //////////////////////////////////////////////////////  */
+.section2 {
+    background-color: #f8f8f8;
+    width: 100%;
+    min-height: 50px;
+}
+
+.s2_contener {
+    width: 70%;
+    margin: auto;
+}
+
+.s2_left,
+.s2_right {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 40px 60px;
+}
+
+.s2_left h2 {
+    color: #444444;
+}
+
+.s2_left p {
+    color: #727272;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*///////////////////////////////////////////////////////////////////   section_3 (Our Baking)   //////////////////////////////////////////////////////  */
+.section3 {
+    width: 100%;
+    min-height: 500px;
+    background-color: #ffff;
+}
+
+.s3_contener {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.s3_top {
+    padding: 12px;
+}
+
+.s3_top h2 {
+    color: #444444;
+}
+
+.s3_top p {
+    color: #727272;
+}
+
+.s3_bottom {
+    width: 100%;
+}
+
+.s3_divs {
+    width: 30%;
+    float: left;
+    margin: 4% 1.66%;
+}
+
+.s3_divs h3 {
+    color: #444444;
+    text-transform: capitalize;
+}
+
+.s3_divs p {
+    color: #727272;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.clr {
+    clear: both;
+}
+
+/*///////////////////////////////////////////////////////////////////   section_4 (Contact Information)   //////////////////////////////////////////////////////  */
+.section4 {
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.s4_contener {
+    width: 80%;
+    margin: auto;
+    padding: 12px 0;
+
+}
+
+.s4_left,
+.s4_right {
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
+
+.s4_content p {
+    font-size: 16;
+    line-height: 2;
+    color: #969696;
+
+}
+
+.s4_content h2 {
+    color: #525151;
+    color: #525151;
+    padding: 12px;
+}
+
+.s4_titel h3 {
+    color: #525151;
+    padding: 12px;
+}
+
+.s4_contact .details {
+    margin-bottom: 16px;
+
+}
+
+.s4_icon {
+    width: 40px;
+    height: 40px;
+    background-color: #8e7754;
+    border-radius: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.s4_link {
+    display: inline-block;
+    color: #969696;
+
+}
+
+/*///////////////////////////////////////////////////////////////////   section_5    //////////////////////////////////////////////////////  */
+.section5 {
+    width: 100%;
+    background-color: #403d38;
+}
+
+.s5_contener {
+    width: 90%;
+    margin: auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.s5_div {
+    width: 24%;
+    float: left;
+    margin: .5%;
+}
+
+.s5_div .imag {
+    width: 40px;
+    height: 40px;
+}
+
+.s5_div .text a {
+    text-decoration-line: none;
+    color: #969696;
+}
+
+.s5_div .text a:hover {
+    color: #b6b6b6;
+}
+
+.s5_contener .s5_div ul {
+    list-style: none;
+}
+
+.s5_div .text,
+.imag {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.s5_div h3 {
+    color: #b6b6b6;
+    text-transform: capitalize;
+}
+
+.s5_div li {
+    color: #969696;
+    margin-bottom: 4px;
+    padding: 12px;
+    border-bottom: #74747460 1px solid;
+}
+
+.s5_contener .aboutus li {
+    border-bottom: none;
+}
+
+.s5_contener .contact li {
+    border-bottom: none;
+}
+
+.s5_div .title {
+    border-bottom: none;
+}
+
+/*///////////////////////////////////////////////////////////////////   section_6 (footer    //////////////////////////////////////////////////////  */
+.footer {
+    width: 100%;
+    background-color: #292725;
+}
+
+.s6_contener {
+    width: 50%;
+    margin: auto;
+}
+
+.s6_logo {
+    width: 25%;
+    margin: auto;
+    padding: 16px;
+}
+
+.s6_text {
+    text-align: center;
+    color: #969696;
+}
+
+.s6_icon {
+    width: 25%;
+    margin: auto;
+
+}
+
+.i {
+    width: 40px;
+    height: 40px;
+    background-color: #727272;
+    border-radius: 45px;
+    float: left;
+    margin: 8px;
 }
