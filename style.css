@@ -269,7 +269,8 @@ body {
     float: left;
     margin: 5%;
 }
-.s4_right{
+
+.s4_right {
     height: 500px;
 }
 
@@ -369,6 +370,10 @@ body {
     border-bottom: #74747460 1px solid;
 }
 
+/* .s5_div .contact li a{
+   
+} */
+
 .s5_contener .aboutus li {
     border-bottom: none;
 }
@@ -379,6 +384,13 @@ body {
 
 .s5_div .title {
     border-bottom: none;
+}
+
+.s5_contener .contact {
+    background-image: url(./images/contact-details-map\ 1.png );
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*///////////////////////////////////////////////////////////////////   section_6 (footer    //////////////////////////////////////////////////////  */
