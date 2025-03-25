@@ -269,6 +269,9 @@ body {
     float: left;
     margin: 5%;
 }
+.s4_right{
+    height: 500px;
+}
 
 .s4_content p {
     font-size: 16;
